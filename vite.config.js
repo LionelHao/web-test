@@ -6,8 +6,12 @@ import { VantResolver } from 'unplugin-vue-components/resolvers'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: './',
   server: {
-    port: 8080
+    host: '0.0.0.0',
+    port: 8081,
+    strictPort: true,
+    open: false
   },
   plugins: [
     vue(),

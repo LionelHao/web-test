@@ -1,0 +1,11 @@
+node_modules
+.git
+.gitignore
+.DS_Store
+.vscode
+.idea
+*.md
+static-files
+# *.config.*
+# postcss.config.cjs
+# vite.config.js
